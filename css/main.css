@@ -1,0 +1,137 @@
+/***** BASE STYLES *****/
+body {
+  font-family: font-family: 'Montserrat', sans-serif;
+  color: #000000;
+}
+
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+h1, h3, h5{
+  color: black;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 18px;
+}
+h5 {
+	font-size: 12px;
+}
+
+p {
+	font-size: 14px;
+	line-height: 21px;
+  padding: 0 30px;
+}
+
+header {
+	height: 110px;
+	margin: 0 auto;
+}
+
+header h1 {
+	float: left;
+	margin: 0;
+	padding: 38px 0;
+}
+header h1 span {
+	color: #77a466;
+}
+
+header nav {
+	float: right;
+	padding: 46px 0;
+}
+header nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+header nav ul li {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 14px;
+	padding: 0 10px;
+	display: inline;
+}
+header nav ul li a{
+	text-decoration: none;
+	color:#77a466;
+}
+
+.top, .bottom {
+	margin: 0 auto;
+	clear: both;
+}
+
+.top-image {
+	height: auto;
+	float: left;
+}
+
+.top-text {
+	height: auto;
+	float: left;
+}
+.top-text h3 {
+	text-align: left;
+	padding: 5px 0;
+	color: #77a466;
+}
+.top-text p {
+	padding: 0;
+	font-size: 16px;
+	line-height: 25px;
+}
+
+.one, .two, .three {
+	width: 399px;
+	height: auto;
+	float: left;
+	border-top: 1px solid #eee;
+}
+
+.one h5 {
+	padding: 10px 0;
+}
+
+.one p {
+  padding: 10px 0;
+  color:#77a466;
+}
+
+.two {
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+}
+
+.two h5,
+.three h5 {
+	padding: 10px 30px;
+}
+
+.two p {
+  color: #333;
+	font-size: 16px;
+	line-height: 21px;
+}
+
+#address {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+footer {
+	height: 50px;
+	border-top: 3px solid #eee;
+	margin: 0 auto;
+	clear: both;
+	text-align: center;
+}
